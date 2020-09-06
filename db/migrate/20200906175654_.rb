@@ -1,4 +1,5 @@
-class RenameUsers  < ActiveRecord::Migration[5.1]
+class RenameUsersColumn  < ActiveRecord::Migration[5.1]
   def change
+    rename_column :users, :name, :username
   end
 end
