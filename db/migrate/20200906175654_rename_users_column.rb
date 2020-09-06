@@ -3,3 +3,4 @@ class RenameUsersColumn  < ActiveRecord::Migration[5.1]
     rename_column :users, :name, :username
   end
 end
+end
