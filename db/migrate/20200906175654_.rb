@@ -1,4 +1,4 @@
-class  < ActiveRecord::Migration[5.1]
+class RenameUsers  < ActiveRecord::Migration[5.1]
   def change
   end
 end
